@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UINavigationControllerDelegate, UIViewControllerTransitioningDelegate {
+class ViewController: UIViewController, UINavigationControllerDelegate {
 
     var animator = VzFadeInAimator()
     var reverseAnimator = VzModalDropCloseAnimation()
